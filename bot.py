@@ -17,5 +17,5 @@ async def on_member_join(member):
     if channel:
         await channel.send(f"Chào mừng {member.mention} vào server 🎉")
 
-KHÔNG DÁN TOKEN Ở ĐÂY
+
 bot.run(os.getenv("TOKEN"))
